@@ -1,0 +1,242 @@
+[
+  {
+    "id": 33,
+    "name": "Amandola"
+  },
+  {
+    "id": 38,
+    "name": "Ancona Piazza Cavour"
+  },
+  {
+    "id": 39,
+    "name": "Ancona Stazione F.S."
+  },
+  {
+    "id": 30,
+    "name": "Ascoli Piceno -Stazione FS"
+  },
+  {
+    "id": 50,
+    "name": "Assisi - S.M. degli Angeli"
+  },
+  {
+    "id": 37,
+    "name": "Belforte del Chienti"
+  },
+  {
+    "id": 48,
+    "name": "Bolognola - Pintura"
+  },
+  {
+    "id": 24,
+    "name": "Camerino Terminal"
+  },
+  {
+    "id": 36,
+    "name": "Camporotondo di Fiastrone"
+  },
+  {
+    "id": 59,
+    "name": "Castelluccio - Norcia"
+  },
+  {
+    "id": 18,
+    "name": "Castelraimondo"
+  },
+  {
+    "id": 28,
+    "name": "Cerreto d'Esi"
+  },
+  {
+    "id": 41,
+    "name": "Civitanova Marche F.S."
+  },
+  {
+    "id": 42,
+    "name": "Civitanova Marche Via Sonnino"
+  },
+  {
+    "id": 63,
+    "name": "Colfiorito"
+  },
+  {
+    "id": 32,
+    "name": "Comunanza"
+  },
+  {
+    "id": 43,
+    "name": "Corridonia Bar Paola"
+  },
+  {
+    "id": 44,
+    "name": "Esanatoglia Seminario S. Cataldo"
+  },
+  {
+    "id": 45,
+    "name": "Esanatoglia Via Fontebianco"
+  },
+  {
+    "id": 27,
+    "name": "Fabriano"
+  },
+  {
+    "id": 1,
+    "name": "Foligno"
+  },
+  {
+    "id": 62,
+    "name": "Foligno (Stazione FS)"
+  },
+  {
+    "id": 66,
+    "name": "Frontignano - Belvedere"
+  },
+  {
+    "id": 65,
+    "name": "Frontignano - Saliere"
+  },
+  {
+    "id": 26,
+    "name": "Jesi"
+  },
+  {
+    "id": 15,
+    "name": "Macerata"
+  },
+  {
+    "id": 17,
+    "name": "Maddalena"
+  },
+  {
+    "id": 29,
+    "name": "Matelica"
+  },
+  {
+    "id": 46,
+    "name": "Matelica Regina Pacis"
+  },
+  {
+    "id": 47,
+    "name": "Matelica Semaforo bivio F.S."
+  },
+  {
+    "id": 35,
+    "name": "Morichella di S.Ginesio (S.P. 502)"
+  },
+  {
+    "id": 3,
+    "name": "Orte Hotel Tevere"
+  },
+  {
+    "id": 69,
+    "name": "Parcheggio Boeri - Norcia"
+  },
+  {
+    "id": 67,
+    "name": "Parcheggio Forca Canapine - Monti del Sole"
+  },
+  {
+    "id": 61,
+    "name": "Parcheggio Monte Prata"
+  },
+  {
+    "id": 68,
+    "name": "Parcheggio Scentinelle"
+  },
+  {
+    "id": 55,
+    "name": "Passo di Treia"
+  },
+  {
+    "id": 52,
+    "name": "Pedaso"
+  },
+  {
+    "id": 49,
+    "name": "Perugia"
+  },
+  {
+    "id": 58,
+    "name": "Perugia - Ponte S.Giovanni"
+  },
+  {
+    "id": 20,
+    "name": "Pieve Torina"
+  },
+  {
+    "id": 40,
+    "name": "Porto Recanati Casello A14"
+  },
+  {
+    "id": 53,
+    "name": "Porto San Giorgio"
+  },
+  {
+    "id": 54,
+    "name": "Recanati"
+  },
+  {
+    "id": 31,
+    "name": "Roccafluvione"
+  },
+  {
+    "id": 8,
+    "name": "Roma Labaro"
+  },
+  {
+    "id": 6,
+    "name": "Roma Ponte Milvio"
+  },
+  {
+    "id": 12,
+    "name": "Roma San Martino della Battaglia"
+  },
+  {
+    "id": 16,
+    "name": "Roma Tiburtina"
+  },
+  {
+    "id": 10,
+    "name": "Roma Via Oslavia"
+  },
+  {
+    "id": 51,
+    "name": "San Benedetto del T."
+  },
+  {
+    "id": 56,
+    "name": "San Severino Marche"
+  },
+  {
+    "id": 34,
+    "name": "Sarnano"
+  },
+  {
+    "id": 25,
+    "name": "Senigallia"
+  },
+  {
+    "id": 4,
+    "name": "Spoleto_Temporanea"
+  },
+  {
+    "id": 5,
+    "name": "Terni"
+  },
+  {
+    "id": 14,
+    "name": "Tolentino"
+  },
+  {
+    "id": 60,
+    "name": "Ussita"
+  },
+  {
+    "id": 57,
+    "name": "Villa Potenza"
+  },
+  {
+    "id": 19,
+    "name": "Visso"
+  }
+]
