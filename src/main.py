@@ -1,9 +1,13 @@
 import os
+import asyncio
 import refund_ticket
 import user_info
 import buy_ticket
+import start
 from dotenv import load_dotenv
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler, ChatMemberHandler
+from telegram.ext import Updater, CommandHandler, CallbackContext, ChatMemberHandler
+from telegram import BotCommand
 
 
 load_dotenv()
@@ -46,15 +50,28 @@ refund_ticket_handler = ConversationHandler(
     fallbacks=[CommandHandler("cancel", refund_ticket.cancel)],
 )
 
+
+async def command_list(application: Application):
+    # Set the bot commands with descriptions
+    commands = [
+        BotCommand("user_info", "Save ticket information"),
+        BotCommand("buy_ticket", "Buy a new ticket"),
+        BotCommand("refund_ticket", "Refund a ticket"),
+    ]
+    await application.bot.set_my_commands(commands)
+
+
 # Main function
-def main() -> None:
-  application = Application.builder().token(BOT_TOKEN).build()
+def main():
+  application = Application.builder().token(BOT_TOKEN).post_init(command_list).build()
   application.add_handler(user_info_handler)
   application.add_handler(buy_ticket_handler)
   application.add_handler(refund_ticket_handler)
+  application.add_handler(CommandHandler("start", start.start))
 
-  # Start the bot
+  # Rileva quando un utente avvia la chat con il bot
   application.run_polling()
 
-if(__name__ == "__main__"):
-  main()
+
+if __name__ == "__main__":
+    main()
